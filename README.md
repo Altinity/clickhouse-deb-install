@@ -15,7 +15,7 @@ Install `gcc-7`
 Append in `/etc/apt/sources.list` entries for test packages. So far `gcc-7` is still a test package for debian
 
 ```bash
-echo "deb http://deb.debian.org/debian testing main" >> /etc/apt/sources.list
+sudo bash -c 'echo "deb http://deb.debian.org/debian testing main" >> /etc/apt/sources.list'
 
 ```
 
